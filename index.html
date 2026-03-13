@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paws & Groom | Professional Pet Grooming</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="navbar">
+  <a href="index.html" class="logo">🐾 Paws &amp; Groom</a>
+  <ul class="nav-links">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html" class="btn-nav">Book Now</a></li>
+  </ul>
+  <div class="burger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-overlay"></div>
+  <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1600&q=80" alt="Happy groomed dog" class="hero-bg" />
+  <div class="hero-content">
+    <p class="hero-sub">Professional Pet Grooming</p>
+    <h1>Your Pet Deserves<br/>to Look Their Best</h1>
+    <p class="hero-desc">Expert grooming with love, care, and a gentle touch — because happy pets make happy owners.</p>
+    <a href="contact.html" class="btn-primary">Book an Appointment</a>
+    <a href="services.html" class="btn-secondary">See Our Services</a>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<section class="trust-bar">
+  <div class="trust-item"><i class="fas fa-star"></i><span><strong>4.9★</strong> Google Rating</span></div>
+  <div class="trust-item"><i class="fas fa-map-marker-alt"></i><span>Conveniently Located</span></div>
+  <div class="trust-item"><i class="fas fa-paw"></i><span><strong>500+</strong> Happy Pets</span></div>
+  <div class="trust-item"><i class="fas fa-clock"></i><span>Open 7 Days a Week</span></div>
+</section>
+
+<!-- SERVICES SNAPSHOT -->
+<section class="section services-snap">
+  <div class="section-header">
+    <h2>What We Offer</h2>
+    <p>Everything your furry friend needs, all in one place.</p>
+  </div>
+  <div class="cards">
+    <div class="card">
+      <div class="card-icon">🛁</div>
+      <h3>Bath & Brush</h3>
+      <p>Full shampoo, conditioner, blow-dry, and brush-out for a silky coat.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">✂️</div>
+      <h3>Full Groom</h3>
+      <p>Breed-specific styling, trim, ear cleaning, and nail filing.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">💅</div>
+      <h3>Nail Trim</h3>
+      <p>Quick and stress-free nail trimming to keep paws healthy.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">🐱</div>
+      <h3>Cat Grooming</h3>
+      <p>Gentle grooming tailored for our feline friends.</p>
+    </div>
+  </div>
+  <div class="center"><a href="services.html" class="btn-primary">View All Services & Prices →</a></div>
+</section>
+
+<!-- WHY US -->
+<section class="section why-us">
+  <div class="section-header">
+    <h2>Why Choose Us?</h2>
+  </div>
+  <div class="why-grid">
+    <div class="why-item">
+      <i class="fas fa-heart"></i>
+      <h3>Gentle Handling</h3>
+      <p>Every pet is treated with patience, kindness, and professional care.</p>
+    </div>
+    <div class="why-item">
+      <i class="fas fa-certificate"></i>
+      <h3>Certified Groomers</h3>
+      <p>Our team is fully trained and experienced with all breeds and sizes.</p>
+    </div>
+    <div class="why-item">
+      <i class="fas fa-shield-alt"></i>
+      <h3>Safe & Clean Salon</h3>
+      <p>We use pet-safe products and maintain strict hygiene standards.</p>
+    </div>
+  </div>
+</section>
+
+<!-- BEFORE/AFTER -->
+<section class="section before-after">
+  <div class="section-header">
+    <h2>The Paws &amp; Groom Difference</h2>
+    <p>See our transformations for yourself.</p>
+  </div>
+  <div class="ba-grid">
+    <div class="ba-card">
+      <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80" alt="Groomed dog 1" />
+      <span class="ba-tag">After ✨</span>
+    </div>
+    <div class="ba-card">
+      <img src="https://images.unsplash.com/photo-1601758174493-2d4e0e8be99b?w=600&q=80" alt="Groomed dog 2" />
+      <span class="ba-tag">After ✨</span>
+    </div>
+    <div class="ba-card">
+      <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=600&q=80" alt="Happy pets" />
+      <span class="ba-tag">After ✨</span>
+    </div>
+  </div>
+  <div class="center"><a href="gallery.html" class="btn-outline">View Full Gallery →</a></div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section testimonials">
+  <div class="section-header">
+    <h2>What Our Clients Say</h2>
+  </div>
+  <div class="reviews">
+    <div class="review">
+      <div class="stars">★★★★★</div>
+      <p>"My golden retriever has never looked better! The team is so gentle and thorough. We'll be back every month!"</p>
+      <strong>— Anna K.</strong>
+    </div>
+    <div class="review">
+      <div class="stars">★★★★★</div>
+      <p>"Amazing service, reasonable prices, and my dog was actually happy after the groom. Highly recommend!"</p>
+      <strong>— Mārtiņš L.</strong>
+    </div>
+    <div class="review">
+      <div class="stars">★★★★★</div>
+      <p>"They handled my anxious cat with such care. First time she didn't hide under the bed after grooming!"</p>
+      <strong>— Ieva R.</strong>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="cta-banner">
+  <h2>Ready to Book Your Pet's Next Groom?</h2>
+  <p>Quick, easy, online booking — no phone calls needed.</p>
+  <a href="contact.html" class="btn-primary">Book Now</a>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div>
+      <h3>🐾 Paws &amp; Groom</h3>
+      <p>Professional grooming for dogs and cats, delivered with love.</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Hours</h4>
+      <p>Mon–Fri: 9:00 – 19:00<br/>Sat–Sun: 10:00 – 17:00</p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p>📞 +371 00 000 000<br/>📧 hello@pawsandgroom.lv<br/>📍 Riga, Latvia</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Paws &amp; Groom. All rights reserved.</p>
+    <div class="social-links">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
